@@ -26,7 +26,7 @@ public class DVEvents
 
 	@SubscribeEvent
 	public void onBlockRightClick(RightClickBlock event)
-	{
+	{/*
 		System.out.println("onBlockRightClick! Is this client or server?");
 		World world = event.getWorld();
 		BlockPos pos = event.getPos();
@@ -36,7 +36,7 @@ public class DVEvents
 		if ((stack.getItem() instanceof HoeItem) && world.isAirBlock(pos.up()))
 		{
 			Block block = state.getBlock();
-		}
+		}*/
 	}
 
 }
